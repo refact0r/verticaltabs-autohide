@@ -23,6 +23,7 @@
 	z-index: 100;
 	width: var(--width);
 	transition: width var(--transition-duration) ease var(--transition-delay) !important;
+    background-color: inherit;
 }
 
 #main-window:not([inFullscreen='true']) #browser {
